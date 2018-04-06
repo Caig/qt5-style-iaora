@@ -1,6 +1,6 @@
 Name:		qt5-style-iaora
 Summary:	Mandriva's IaOra widget style ported to Qt5
-Version:	0.3.5.1
+Version:	0.3.6
 Release:	1
 License:	GPLv3+
 Group:		System/Libraries
@@ -17,7 +17,6 @@ It includes the original color schemes too.
 
 %files
 %{_qt5_plugindir}/styles/libiaora-qt.so
-/etc/iaoracolors
 %{_datadir}/color-schemes/IaOra*.colors
 
 %prep
